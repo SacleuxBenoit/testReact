@@ -1,1 +1,5 @@
-import react, {component} from 'react';
+import react, {Component} from 'react';
+
+class Welcome extends Component{
+    
+}
