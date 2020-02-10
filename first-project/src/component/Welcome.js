@@ -7,6 +7,14 @@ class Welcome extends Component{
             count : 0
         }
     }
+
+    addOne(){
+        this.setState({
+            count: this.state.count + 1
+        });
+    }
+
+
     render(){
         return(
             <div>
