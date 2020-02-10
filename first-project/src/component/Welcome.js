@@ -8,6 +8,12 @@ class Welcome extends Component{
         }
     }
 
+    removeOne(){
+        this.setState({
+            count: this.state.count - 1
+        });
+    }
+
     addOne(){
         this.setState({
             count: this.state.count + 1
