@@ -11,6 +11,7 @@ class Welcome extends Component{
         return(
             <div>
             <h1>Welcome {this.props.name}</h1>
+            <p>Mon compteur : {this.state.count}</p>
             </div>
         );
     }
